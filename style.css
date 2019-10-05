@@ -1,21 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 body{
     background: #FDFDFD;
     color: #707070;
-    font-family: Nunito;
+    font-family: Quicksand;
 }
 
 h1{
     color: #000000;
+    font-weight: 600;
 }
 
 .textgreen{
     color: #3ebcb3;
+    font-weight: 700;
 }
 
 .btn-outline-primary{
     border-color: #3ebcb3;
     color: #3ebcb3;
+    font-weight: 700;
+    border-width: 2px;
+}
+
+.btnprime{
+    font-weight: 600;
+    font-size: 0.8em;
+    border-width: 1.5px;
+    border-radius: 2px;
 }
 
 .btn-outline-primary:hover{
@@ -23,7 +34,19 @@ h1{
     border-color: #3ebcb3;
 }
 
+a{
+    text-decoration: underline;
+    color: #707070;
+}
+
 .card{
+    margin-bottom: 32px;
     border:0;
+    box-shadow: 0 0px 0.6px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    transition: 0.2s all ease-in-out;
+}
+
+.card:hover, .card:active, .card:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
