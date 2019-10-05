@@ -3,6 +3,7 @@ body{
     background: #FDFDFD;
     color: #707070;
     font-family: Quicksand;
+    overflow-x: hidden;
 }
 
 h1{
