@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+body{
+    background: #FDFDFD;
+    color: #707070;
+    font-family: Nunito;
+}
+
+h1{
+    color: #000000;
+}
+
+.textgreen{
+    color: #3ebcb3;
+}
+
+.btn-outline-primary{
+    border-color: #3ebcb3;
+    color: #3ebcb3;
+}
+
+.btn-outline-primary:hover{
+    background: #3ebcb3;
+    border-color: #3ebcb3;
+}
+
+.card{
+    border:0;
+    border-radius: 4px;
+}
