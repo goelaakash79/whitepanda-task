@@ -50,3 +50,13 @@ a{
 .card:hover, .card:active, .card:focus {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.fa{
+    font-size: 40px;
+    color: #A6A6A6;
+    transition: 0.2s all ease-in-out;
+}
+
+.fa:hover{
+    color: #3ebcb3;
+}
